@@ -8,10 +8,21 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 Variables
 =================
-subjectid - integer value between 1-30 - represents the subject who performed the activity
-activity - factor value between 1-6 - activities peformed by the subject when the measure was taken (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-feature - character - described in the feature selection, the tidy dataset is a subset of only mean and standard deviation measures
-measure - numeric - avarage measure of each feature (x,y and z signal for test and train) by subject and activity,
+subjectid 
+type: integer 
+value:between 1-30, represents the subject who performed the activity
+
+activity
+type: factor 
+value: between 1-6 activities peformed by the subject when the measure was taken (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
+feature
+type: character
+value: described in the feature selection, the tidy dataset is a subset of only mean and standard deviation measures
+
+measure
+type: numeric
+value: avarage measure of each feature (x,y and z signal for test and train) by subject and activity,
 
 
 Feature Selection 
